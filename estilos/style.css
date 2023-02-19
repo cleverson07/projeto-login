@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body,html{
-    background-color: #fca910;
+    background-image: linear-gradient(to bottom, #fca910,#fc5f10);
     height: 100vh;
     width: 100vw;
 }
