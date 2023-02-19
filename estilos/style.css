@@ -24,14 +24,15 @@ main{
 section#login{
     background-color: white;
     width: 300px;
-    height: 520px;
+    height: 550px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+   
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.434);
+    transform: translate(-50%, -50%);
 }
 section#login > div#imagem {
     background-image: url(../imagens/pexels-dinnow-9444476.jpg);
@@ -61,13 +62,30 @@ section#login > div#formulario{
 label{
     display: none;
 }
+span{
+    color: rgb(242, 89, 0);
+   
+    width: 40px;
+    font-size: 2em;
+    padding: 5px;
+    border-radius: 10px;
+}
 .campo{
     background-color: #f9be50;
     height: 40px;
     margin: 5px 0px;
     border-radius: 10px;
 }
-
+input{
+    background-color: antiquewhite;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    border: 0px;
+    width: calc(100% - 45px);
+    transform: translateY(-4px);
+}
 input[type=submit]{
     display: block;
     font-size: 1em;
@@ -77,6 +95,7 @@ input[type=submit]{
     color: white;
     border: none;
     border-radius: 10px;
+    margin-top: 20px;
    
 }
 input[type=submit]:hover{
