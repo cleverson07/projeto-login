@@ -19,6 +19,11 @@
             float: right;
             width: 60%;
         }
+        figure{
+            width: 100px;
+            height:auto;
+         
+         }
 
 
 }
